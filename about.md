@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hi! I am Maeva!
 
-### More Information
+I have enjoyed taking courses on Udemy and reading books and blogs to increase my understanding of Web and Mobile software development. I then started to get more involved in the JS community since 2014. I enjoy working with JavaScript, Python, and recently, I have been delving into C#.
 
-A place to include any other types of information that you'd like to include about yourself.
+Meet me also on [Stackoverflow](https://stackexchange.com/users/9569098/maevadevs), [NPM](https://www.npmjs.com/~maevadevs) or [Twitter](https://twitter.com/maevaralafi?lang=en)!
+
+Happy coding!
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[maeva@ralafi.com](mailto:maeva@ralafi.com)
