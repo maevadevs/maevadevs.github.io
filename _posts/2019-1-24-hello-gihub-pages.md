@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello Github Pages, and world!
+title: Hello Github Pages, Jekyll, and world!
 ---
 
 As the post title suggests, this is my first post for my Github pages. My intent with this page is to keep it as a very simple side blog for my programming activities.
