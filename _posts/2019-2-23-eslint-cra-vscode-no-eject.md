@@ -18,11 +18,9 @@ Typically, we are asked to eject our CRA application when wanting to get advanta
 
 1. Add your `.eslintrc.json` to the project root, or run `npx eslint --init` to create one. If you create one manually, then jump to step 5 from here. (Note: We use `npx` here so that we simply execute `--init` without installing the `eslint` dependency. See step 1: Not installing `eslint`)
 
-1. The `npx` command will create the `eslintrc` file then will crash without installing the depedencies because it cannot find `eslint.` That is fine. Carry on.
+1. The `npx` command will create the `eslintrc` file. If it asks *Would you like to install them now with npm?*, make sure to reply `n`. We want to make sure we do not install `eslint`. However, go ahead an install all other dependencies other than `eslint`. You need to install any required additional dependencies if they were not already done. The example below shows the case for the React plugin, neede to support React linting.
 
-1. The previous command, or your manually-created `eslintrc`, might have other dependencies other than `eslint`. You need to install any required additional dependencies if they were not already done. The example below shows the case for the React plugin.
-
-```shell
+```
 yarn add -D eslint-plugin-react
 ```
 
@@ -35,6 +33,40 @@ yarn add -D eslint-plugin-react
 ]
 ```
 
+Here is a full rules list example that I use on my project.
+
+```json
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "indent": ["error", 2],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"]
+  }
+}
+```
+
 That's it! Now, refresh your files or re-open your project folder if needed and checkout those squigly ESLint familiar underline. And if you switched on `Auto Fix On Save` in your VS Code  User Settings, then CTRL+S or CMD+S will do all apply all the fixes for you.
+
+## Summary
+
+Basically, as long as you don't npm install `eslint` itself, you are good. The conflist only happens when you npm install `eslint` because CRA already has a specific version that it needs.
 
 Happy coding!
