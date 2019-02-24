@@ -24,7 +24,7 @@ Typically, we are asked to eject our CRA application when wanting to get advanta
 yarn add -D eslint-plugin-react
 ```
 
-6. Finally, make sure to have `"plugin:react/recommended"` setup in `.eslintrc.json`. Replace `extends` with an array if needed. The order here might be important to make the correct linting work.
+5. Finally, make sure to have `"plugin:react/recommended"` setup in `.eslintrc.json`. Replace `extends` with an array if needed. The order here might be important to make the correct linting work.
 
 ```json
 "extends": [
