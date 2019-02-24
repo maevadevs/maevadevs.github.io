@@ -67,7 +67,7 @@ That's it! Now, refresh your files or re-open your project folder if needed and 
 
 ## Summary
 
-Basically, as long as you don't npm install `eslint` itself, you are good. The conflist only happens when you npm install `eslint` because CRA already has a specific version that it needs.
+Basically, as long as you don't npm install `eslint` itself, you are good. The conflict only happens when you npm install `eslint` because CRA already has a specific version that it needs.
 
 Happy coding!
 
