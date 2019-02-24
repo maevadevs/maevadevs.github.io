@@ -70,3 +70,10 @@ That's it! Now, refresh your files or re-open your project folder if needed and 
 Basically, as long as you don't npm install `eslint` itself, you are good. The conflist only happens when you npm install `eslint` because CRA already has a specific version that it needs.
 
 Happy coding!
+
+## Versions Used
+
+- Node: `10.15.1`
+- Yarn: `1.13.0`
+- NPM: `6.8.0`
+- create-react-app: Always `latest` when using `npx`
