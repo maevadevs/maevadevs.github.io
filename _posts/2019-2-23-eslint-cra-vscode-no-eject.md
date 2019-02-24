@@ -18,13 +18,13 @@ Typically, we are asked to eject our CRA application when wanting to get advanta
 
 1. Add your `.eslintrc.json` to the project root, or run `npx eslint --init` to create one. If you create one manually, then jump to step 5 from here. (Note: We use `npx` here so that we simply execute `--init` without installing the `eslint` dependency. See step 1: Not installing `eslint`)
 
-1. The `npx` command will create the `eslintrc` file. If it asks *Would you like to install them now with npm?*, make sure to reply `n`. We want to make sure we do not install `eslint`. However, go ahead an install all other dependencies other than `eslint`. You need to install any required additional dependencies if they were not already done. The example below shows the case for the React plugin, neede to support React linting.
+1. The `npx` command will create the `eslintrc` file. If it asks *Would you like to install them now with npm?*, make sure to reply `n`. We want to make sure we do not install `eslint`. However, go ahead an install all other dependencies other than `eslint`. You need to install any required additional dependencies if they were not already done. The example below shows the case for the React plugin, needed to support React linting.
 
 ```
 yarn add -D eslint-plugin-react
 ```
 
-5. Finally, make sure to have `"plugin:react/recommended"` setup in `.eslintrc.json`. Replace `extends` with an array if needed. The order here might be important to make the correct linting work.
+5. Finally, make sure to have `"plugin:react/recommended"` setup in `eslintrc`. Replace `extends` with an array if needed. The order here is important to make the correct linting work.
 
 ```json
 "extends": [
