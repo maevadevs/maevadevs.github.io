@@ -11,7 +11,7 @@ So for this *"Hello World"* post, I will simply explain what I did to get this b
 
 1. Next, Update your site name, avatar and other options using the `_config.yml` file in the root of your repository. The configuration file is commented out so very easy steps.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+![_config.yml]({{ site.baseurl }}/images/jekyll-yml-config.png)
 
 3. Then edit the first post to see how the changes are affected. You can also create new posts by simply creating a new `.md` file in the post. Just make sure to include the *front-matter block* at the top of each new blog post and make sure the post's filename is in this format: `year-month-day-title.md`
 
