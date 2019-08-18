@@ -3,7 +3,9 @@ layout: post
 title: Setup ESLint In VSCode With `create-react-app` Without Ejecting
 ---
 
-In this post, I explain how I got to setup ESLint with `create-react-app` (CRA) in Visual Studio Code, *without ejecting!* 
+In this post, I explain how I got to setup ESLint with `create-react-app` (CRA) in Visual Studio Code, *without ejecting!*
+
+---
 
 Typically, we are asked to eject our CRA application when wanting to get advantage of ESLint integration with VS Code. However, here are some very easy steps I used for an easy fix while:
 

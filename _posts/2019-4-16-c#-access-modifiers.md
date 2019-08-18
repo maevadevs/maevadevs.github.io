@@ -1,4 +1,11 @@
+---
+layout: post
+title: C# Access Modifiers
+---
+
 This is a short hierarchy summary of the access modifiers in C#.NET, from most restricted to least restricted.
+
+---
 
 ## `private`
 

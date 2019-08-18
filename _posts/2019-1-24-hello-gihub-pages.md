@@ -5,6 +5,8 @@ title: Hello Github Pages, Jekyll, and world!
 
 As the post title suggests, this is my first post for my Github pages. My intent with this page is to keep it as a very simple side blog for my programming activities.
 
+---
+
 So for this *"Hello World"* post, I will simply explain what I did to get this blog started in a matter of 5 minutes. The setup steps for Github pages using Jekyll were pretty straightforward and well documented in my opinion.
 
 1. Log into your Github account and fork the [Jekyll-Now original repo](https://github.com/barryclark/jekyll-now), then rename it as `yourgithubusername.github.io`
