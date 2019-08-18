@@ -28,12 +28,12 @@ yarn add -D eslint-plugin-react
 
 5. Finally, make sure to have `"plugin:react/recommended"` setup in `eslintrc`. Replace `extends` with an array if needed. The order here is important to make the correct linting work.
 
-```json
+{% highlight json %}
 "extends": [
   "eslint:recommended",
   "plugin:react/recommended"
 ]
-```
+{% endhighlight %}
 
 Here is a full rules list example that I use on my project.
 
