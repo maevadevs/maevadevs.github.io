@@ -4,17 +4,17 @@ title: About
 permalink: /about/
 ---
 
-(setq markdown-xhtml-header-content
-      "<style type='text/css'>
+
+<style type='text/css'>
 .profile {
   border-radius: 100%;
   width: 150px;
   height: 150px;
   display: block;
-  margin: 0 auto;
+  margin: 0 .2rem;
   float: left;
 }
-</style>")
+</style>
 
 ![Me]({{ site.baseurl }}/images/profile.jpg){:class="profile"}
 Hi! I am Maeva!
