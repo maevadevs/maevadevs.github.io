@@ -17,7 +17,7 @@ Flexbox is like a sprinkle of magic that comes with CSS3 and fixes the long-live
 
 First, our HTML squeleton is a very simple setup.
 
-```html
+{% highlight html %}
 <!doctype html>
 
 <html>
@@ -33,11 +33,11 @@ First, our HTML squeleton is a very simple setup.
   </div>
 </body>
 </html>
-```
+{% endhighlight %}
 
 Then comes the CSS where everything is setup. *The key for the alignement is `flex-direction: column` for the children `div`s. Also, `display: flex;` is required on the children to allow flexbox on the text.*
 
-```css
+{% highlight css %}
 /**
  * flex-direction: column; -- for the children divs
  * display: flex; -- Required on the children to allow flexbox on the text.
@@ -68,7 +68,7 @@ div.redbox {
   font-weight: 100;
   font-size: 15px;
 }
-```
+{% endhighlight %}
 
 ## The End Result
 

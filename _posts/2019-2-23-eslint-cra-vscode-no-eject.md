@@ -22,9 +22,9 @@ Typically, we are asked to eject our CRA application when wanting to get advanta
 
 1. The `npx` command will create the `eslintrc` file. If it asks *Would you like to install them now with npm?*, make sure to reply `n`. We want to make sure we do not install `eslint`. However, go ahead an install all other dependencies other than `eslint`. You need to install any required additional dependencies if they were not already done. The example below shows the case for the React plugin, needed to support React linting.
 
-```
+{% highlight sh %}
 yarn add -D eslint-plugin-react
-```
+{% endhighlight %}
 
 5. Finally, make sure to have `"plugin:react/recommended"` setup in `eslintrc`. Replace `extends` with an array if needed. The order here is important to make the correct linting work.
 
@@ -37,7 +37,7 @@ yarn add -D eslint-plugin-react
 
 Here is a full rules list example that I use on my project.
 
-```json
+{% highlight json %}
 {
   "env": {
     "browser": true,
@@ -63,7 +63,7 @@ Here is a full rules list example that I use on my project.
     "semi": ["error", "always"]
   }
 }
-```
+{% endhighlight %}
 
 That's it! Now, refresh your files or re-open your project folder if needed and checkout those squigly ESLint familiar underline. And if you switched on `Auto Fix On Save` in your VS Code  User Settings, then CTRL+S or CMD+S will do all apply all the fixes for you.
 
