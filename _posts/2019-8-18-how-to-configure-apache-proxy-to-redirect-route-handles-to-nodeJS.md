@@ -39,9 +39,7 @@ app.listen(PORT, () => `Express is up on port ${PORT}...`)
 - Access all NodeJS instance logic at the endpoint: `http://mydomain.com/nodeapp`
 
 {% comment %}
-=======================
 The purpose of this snippet is to list all the tags you have in your site.
-=======================
 {% endcomment %}
 {% for tag in site.tags %}
 	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
