@@ -81,3 +81,12 @@ Happy coding!
 - Yarn: `1.13.0`
 - NPM: `6.8.0`
 - create-react-app: Always `latest` when using `npx`
+
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for tag in tags %}
+	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
+{% endfor %}
