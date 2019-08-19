@@ -8,7 +8,7 @@ tags: [configuration, nodejs, apache, proxy, proxypass, routing, redirect]
 The purpose of this snippet is to list all the tags you have in your site.
 {% endcomment %}
 {% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> hi </a>
+<a href="#{{ tag | slugify }}">hi</a>
 {% endfor %}
 
 When you need to have Apache and NodeJS to work in coordination, this setting allows a specific root route (e.g. `/nodeapp`) on a mainly Apache Server to be redirected and handled by a NodeJS microserver instance instead.
