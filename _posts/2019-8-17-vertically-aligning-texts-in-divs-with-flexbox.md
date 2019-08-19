@@ -87,12 +87,3 @@ div.redbox {
 In this minimalistic example, I demo how vertical centering with flexbox works. The most important piece is on the children element: *Make the direction of its flex into a column using `flex-direction: column;`.* After that is set, `justify-content: center;` will center the text along the y-axis. Voila!
 
 By default, the text will automatically wrap. Check the comments on the CSS for more details.
-
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for tag in tags %}
-	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
-{% endfor %}
