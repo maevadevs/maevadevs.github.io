@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How To Configure Apache Proxy To Redirect Route Handles To NodeJS
+category: NodeJS
+tags: [configuration, nodejs, apache, proxy, proxypass, routing, redirect]
 ---
 
 When you need to have Apache and NodeJS to work in coordination, this setting allows a specific root route (e.g. `/nodeapp`) on a mainly Apache Server to be redirected and handled by a NodeJS microserver instance instead.

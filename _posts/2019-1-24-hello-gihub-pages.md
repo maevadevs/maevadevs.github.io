@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Hello Github Pages, Jekyll, and world!
+category: Blog
+tags: [jekyll, jekyll-now]
 ---
 
 As the post title suggests, this is my first post for my Github pages. My intent with this page is to keep it as a very simple side blog for my programming activities.

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Vertically Aligning Texts in Divs With Flexbox
+category: HTML5
+tags: [flexbox, vertical-align, codepen, html5]
 ---
 
 I initially published this post on [Codepen](https://codepen.io/maevadevs/post/vertical-aligning-texts-in-divs-with-flexbox) but basically, this is how we do easy vertical alignement in the DOM using Flexbox.

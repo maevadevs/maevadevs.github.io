@@ -1,6 +1,8 @@
 ---
 layout: post
 title: C# Access Modifiers
+category: DotNet
+tags: [csharp, dotnet, access-modifiers]
 ---
 
 This is a short hierarchy summary of the access modifiers in C#.NET, from most restricted to least restricted.
@@ -14,7 +16,7 @@ This is a short hierarchy summary of the access modifiers in C#.NET, from most r
 - Boundaries:
   - **Same Assembly: Declared Class**
 
-## `private protected` 
+## `private protected`
 
 - Since C# 7.2
 - Accessible from within a Class/Struct
