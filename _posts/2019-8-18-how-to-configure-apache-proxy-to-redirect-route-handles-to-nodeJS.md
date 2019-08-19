@@ -13,20 +13,20 @@ Let's assume that the endpoint root route on Apache that we want to be handled b
 
 We can use Apache's `ProxyPass` directive to make this setup work
 
-1. In Apache `httpd.conf`, add the following line:
+- In Apache `httpd.conf`, add the following line:
 
 {% highlight sh %}
 ProxyPass /nodeapp http://localhost:8080/
 {% endhighlight %}
 
-2. Make sure the following lines are **not** commented out for the proxy setting in `httpd.conf`:
+- Make sure the following lines are **not** commented out for the proxy setting in `httpd.conf`:
 
 {% highlight sh %}
 LoadModule proxy_module modules/mod_proxy.so
 LoadModule proxy_http_module modules/mod_proxy_http.so
 {% endhighlight %}
 
-3. Run the NodeJS server instance on port 8080
+- Run the NodeJS server instance on port 8080
 
 {% highlight js %}
 const express = require('express')
@@ -36,13 +36,13 @@ app.get('/', (req, res) => res.send('Hello from Node within Apache!')
 app.listen(PORT, () => `Express is up on port ${PORT}...`)
 {% endhighlight %}
 
-4. Access all NodeJS instance logic at the endpoint: `http://mydomain.com/nodeapp`
+- Access all NodeJS instance logic at the endpoint: `http://mydomain.com/nodeapp`
 
 {% comment %}
 =======================
 The purpose of this snippet is to list all the tags you have in your site.
 =======================
 {% endcomment %}
-{% for tag in tags %}
+{% for tag in site.tags %}
 	<a href="#{{ tag | slugify }}"> {{ tag }} </a>
 {% endfor %}
