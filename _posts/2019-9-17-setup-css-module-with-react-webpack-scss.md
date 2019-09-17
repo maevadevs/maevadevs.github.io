@@ -5,7 +5,7 @@ category: React
 tags: [scss, css, react, webpack]
 ---
 
-As we often compare Angular with React, one of the thing that is great about Angular is the `scoped` styles that we assign to components. It makes the styles only applied to the local elements of the component and does not become global, even though the final bundle is still a single compiled `styles.css` file. Here is how we achieve that with React.
+As we often compare Angular with React, one of the thing that I like about Angular is the style encapsulation that we assign to components. It makes the styles only applied to the local elements of the component and does not become global, even though the final bundle is still a single compiled `styles.css` file. Here is how we can achieve that with React.
 
 ---
 
