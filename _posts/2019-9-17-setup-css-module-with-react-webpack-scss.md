@@ -73,7 +73,7 @@ TextInput/
 |- TextInput.test.js
 {% endhighlight %}
 
-`styles.scss` can contain the styles specific for this component. Also, keep in mind that *all css rules are valid scss rules.* So using a SCSS setup is much flexible that simpy using CSS.
+`styles.scss` can contain the styles specific for this component. Also, keep in mind that *all css rules are valid scss rules.* So using a SCSS setup is much flexible than simpy using CSS.
 
 {% highlight scss %}
 /* --- styles.scss --- */
@@ -104,7 +104,7 @@ $fontFamily: Arial, Helvetica, sans-serif;
 }
 {% endhighlight %}
 
-Now, `styles.scss` can be imported directly into `index.js` as any other ES6 modules and styles can be applied as if they were props off that object. It is also possible to apply destructuring here, but needs to be careful not to have variable collision. (e.g. `label` vs `styles.label`)
+Now, `styles.scss` can be imported directly into `index.js` as any other ES6 modules and styles can be applied as if they were props off that object. It is also possible to apply destructuring here but be careful not to have variable collision. (e.g. `label` vs `styles.label`)
 
 {% highlight jsx %}
 /* --- index.js --- */
