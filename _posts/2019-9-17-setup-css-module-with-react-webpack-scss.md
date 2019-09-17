@@ -11,11 +11,11 @@ As we often compare Angular with React, one of the thing that I like about Angul
 
 ## Setup With CRA
 
-If you are using CRA 2.0+, all you need to do is to name the local style file to `[ComponentName].module.css` This convention is recognized by create-react-app as a modular css.
+If you are using CRA 2.0+, all you need to do is to name the local style file to `[ComponentName].module.css`. This convention is recognized by create-react-app as a modular css.
 
 ## Manual Setup
 
-On the over hand, here is the setup if not using CRA. Assuming that you have set up you React app using Babel and Webpack, we just need to cusomtize `css-loader` for this setup. CSS Module is already supported by Babel's `css-loader`. We just need to hook it up with `sass-loader` in `webpack.config.js`.
+On the over hand, here is the setup if not using CRA. Assuming that you have set up your React app using Babel and Webpack, we just need to cusomtize `css-loader` for this setup. CSS Module is already supported by Babel's `css-loader`. We just need to hook it up with `sass-loader` in `webpack.config.js`.
 
 {% highlight js %}
 const CSSExtract = new MiniCssExtractPlugin() // Default output bundle filename: main.css
@@ -64,7 +64,7 @@ There are multiple options that can be used to configure CSS Module with `css-lo
 
 ## How it works
 
-Now, here is the folder structure of components. Let's take an example for a `TextInput` component as an example.
+Now, here is the folder structure of components. Let's look at a custom `TextInput` component as an example.
 
 {% highlight js %}
 TextInput/
