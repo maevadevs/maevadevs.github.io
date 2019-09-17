@@ -2,7 +2,7 @@
 layout: post
 title: Using `refs` With React
 category: React
-tags: [refs]
+tags: [react, refs]
 ---
 
 This a short explanation of the usage of `refs` in React.

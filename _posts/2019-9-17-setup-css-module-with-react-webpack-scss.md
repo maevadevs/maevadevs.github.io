@@ -2,7 +2,7 @@
 layout: post
 title: Setup CSS Module With React, Webpack, and SCSS
 category: React
-tags: [scss, css, react, webpack]
+tags: [react, scss, css, webpack]
 ---
 
 As we often compare Angular with React, one of the thing that I like about Angular is the style encapsulation that we assign to components. Here is how we can achieve that with React.
