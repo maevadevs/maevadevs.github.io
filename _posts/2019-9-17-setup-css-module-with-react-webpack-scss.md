@@ -5,9 +5,11 @@ category: React
 tags: [scss, css, react, webpack]
 ---
 
-As we often compare Angular with React, one of the thing that I like about Angular is the style encapsulation that we assign to components. It makes the styles only applied to the local elements of the component and does not become global, even though the final bundle is still a single compiled `styles.css` file. Here is how we can achieve that with React.
+As we often compare Angular with React, one of the thing that I like about Angular is the style encapsulation that we assign to components. Here is how we can achieve that with React.
 
 ---
+
+Style Encapsulation makes the styles only applied to the local elements of a component and does not become *global*, even though the final bundle is still a single compiled `styles.css` file. (Well, in reality, all the styles in `styles.css` are still global. We simply append a base64 hash specific for each component to each of the selectors for that component to create the scope.)
 
 ## Setup With CRA
 
